@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'h+6i*5+qcut=7zov3n4542iq^t$frpfti)%_&q+#+%=vpm6d=i'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['damp-dawn-43959.herokuapp.com', '127.0.0.1']
 
 
 # Application definition
